@@ -1,0 +1,31 @@
+.container{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+img{
+	height:300px;
+	width:450px;
+	margin:15px;
+	transition:all 1s;
+}
+h1{
+	font-family:comic sans ms; 
+	display: table;
+    margin: 0 auto;
+ 	width:400px;
+	text-align:center;
+	font-size:3em;
+	color: white;
+	border: #150d5e;
+	border-bottom:2px solid pink;
+	border-right:2px solid rgb(87, 231, 21);
+	box-shadow:4px 4px 5px #e034d8;
+}
+body{
+	background-color:black;
+}
+img:hover{
+	transform:scale(1.1);
+	/*transform:skewX(10deg);*/
+}
